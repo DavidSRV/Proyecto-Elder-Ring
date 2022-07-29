@@ -8,6 +8,12 @@ onAuthStateChanged(auth, (user) => {
     const uid = user.uid;
     let usuario= document.getElementById("usuario")
     usuario.textContent="bienvenido "+user.email
+    let salir = document.getElementById("salir")
+    salir.classList.remove("invisible")
+    let tienda = document.getElementById("tienda")
+    tienda.classList.remove("invisible")
+    let musica = document.getElementById("musica")
+    musica.classList.remove("invisible")
     // ...
   } else {
     // User is signed out
@@ -16,3 +22,15 @@ onAuthStateChanged(auth, (user) => {
     usuario.textContent=""
   }
 });
+let botonsalir = document.getElementById('salir')
+
+botonsalir.addEventListener("click", function () {
+  const auth = getAuth();
+  signOut(auth).then(() => {
+    // Sign-out successful.
+    window.location.href="../index.html"
+  }).catch((error) => {
+    // An error happened.
+  });
+
+})

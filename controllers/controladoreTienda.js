@@ -24,8 +24,6 @@ let productos=[
         precio:5,
         fotos:['https://firebasestorage.googleapis.com/v0/b/eldenring-f97de.appspot.com/o/9.jpg?alt=media&token=2b044bd3-8045-439e-8b16-08fc54dcc2d0','https://firebasestorage.googleapis.com/v0/b/eldenring-f97de.appspot.com/o/10.jpg?alt=media&token=749f9858-9281-4585-8345-f8fce3b12749']
     }
-    
-
 
 ]
 
@@ -36,13 +34,13 @@ let fila=document.getElementById('fila')
 productos.forEach(function(producto){
 
     let columna=document.createElement('div')
-    columna.classList.add("col")
+    columna.classList.add("col-md")
 
     let tarjeta=document.createElement('div')
-    tarjeta.classList.add("card","h-100","text-center")
+    tarjeta.classList.add("card","h-60","text-center")
 
     let foto=document.createElement("img")
-    foto.classList.add("img-fluid","w-100","h-100")
+    foto.classList.add("img-fluid","w-60","h-60")
     foto.src=producto.fotos[0]
 
     let nombre=document.createElement('h3')
@@ -60,7 +58,6 @@ productos.forEach(function(producto){
         foto.src=producto.fotos[0]
     })
 
-
     //padres e hijos
 
     tarjeta.appendChild(foto)
@@ -68,7 +65,5 @@ productos.forEach(function(producto){
     tarjeta.appendChild(precio)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)
-    
-
 
 })

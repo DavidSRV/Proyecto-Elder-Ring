@@ -38,10 +38,6 @@
             <li class="nav-item">
               <a class="nav-link" href="./assets/Views/personajes.html">Personajes</a>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="./assets/Views/registro.html">Registrate</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link invisible" href="./assets/Views/musica.html" id="musica">Música</a>
             </li>
@@ -57,7 +53,7 @@
             <li class="nav-item">
               <a class="nav-link active invisible" aria-current="page" href="#" id="salir">salir</a>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -187,13 +183,15 @@
               <button type="submit" class="btn btn-outline-light" id="button">Ingresar</button>
               <button id="boton2" type="button" class="btn btn-outline-light" id="">Salir</button>
               <p>¿Aun no tienes cuenta?</p>
-              <button  class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-               ¡Regístrate <i class="bi bi-box-arrow-in-right"></i> </button> 
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                ¡Regístrate <i class="bi bi-box-arrow-in-right"></i> </button>
             </form>
           </div>
           <div class="col-12 col-md-6">
             <img class="w-100 img-fluid" src="assets/img/tienda3.jpg" alt="">
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel">Registrate</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -207,24 +205,24 @@
                     </div>
                     <div class="mb-3">
                       <label class="sr-only" for="inlineFormInputGroup">Correo</label>
-              <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                  <div class="input-group-text"><i class="bi bi-envelope"></i></div>
-                </div>
-                <input type="text" class="form-control" id="email" placeholder="Correo electrónico">
-              </div>
-              <label class="sr-only" for="inlineFormInputGroup">Contraseña</label>
-              <div class="input-group mb-2">
-                <div class="input-group-prepend">
-                  <div class="input-group-text"><i class="bi bi-lock"></i>
-                  </div>
-                </div>
-                <input type="password" class="form-control" id="password" placeholder="contraseña">
-              </div>
-        
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><i class="bi bi-envelope"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+                      </div>
+                      <label class="sr-only" for="inlineFormInputGroup">Contraseña</label>
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><i class="bi bi-lock"></i>
+                          </div>
+                        </div>
+                        <input type="password" class="form-control" id="password" placeholder="contraseña">
+                      </div>
+
                       <button id="boton" type="submit" class="btn btn-primary" id="boton">Registrar</button>
-                      
-        
+
+
                   </form>
                 </div>
                 <div class="dropdown mt-3">
@@ -295,21 +293,23 @@
 
   </footer>
 
+  <script src="./controllers/wow.min.js">
+
+  </script>
+  <script src="./services/serviciospotify.js">
+  </script>
+
+<script src="/controllers/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./controllers/firebase.js" type="module"></script>
+  <script src="./services/observador.js" type="module"></script>
+  <script src="./controllers/registro.js" type="module"></script>
+  <script src="./services/login.js" type="module"></script>
 </body>
-<script src="./controllers/wow.min.js">
 
-</script>
-<script src="./services/serviciospotify.js">
-
-</script>
-
-<script>
-  new WOW().init();
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="./controllers/firebase.js" type="module"></script>
-<script src="./services/observador.js" type="module"></script>
-<script src="./controllers/registro.js" type="module"></script>
-<script src="./services/login.js" type="module"></script>
 </html>

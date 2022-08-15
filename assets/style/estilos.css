@@ -1,127 +1,119 @@
 .main {
-background-color: #2f3640;
-background: #000;
-    
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-image: linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.9)
-  ), url(../img/main.jpg);}
+  background-color: #2f3640;
+  background: #000;
 
-  .main2{
-    
-      background-color: #2f3640;
-      background: #000;
-          
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: linear-gradient(
-          rgba(164, 164, 164, 0.3),
-          rgba(253, 253, 253, 0.5)
-        ), url(../img/main2.jpg);
-  }
-  .audio{
-    background-color: #2f3640;
-      background: #000;
-          
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: linear-gradient(
-          rgba(164, 164, 164, 0.3),
-          rgba(253, 253, 253, 0.5)
-        ), url(../img/audio.jpg);
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)), url(../img/main.jpg);
+}
 
-  .separador{
-    display: block;
-    margin: auto;
-    width: 80%;
-    padding: 20px;
-    align-items:center ;
-    
-  }
-.logonav{
-    width: 200px;
+.main2 {
+
+  background-color: #2f3640;
+  background: #000;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(164, 164, 164, 0.3),
+      rgba(253, 253, 253, 0.5)), url(../img/main2.jpg);
+}
+
+.audio {
+  background-color: #2f3640;
+  background: #000;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(164, 164, 164, 0.3),
+      rgba(253, 253, 253, 0.5)), url(../img/audio.jpg);
+}
+
+.separador {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.logonav {
+  width: 200px;
 }
 
 
-.textocar{
-    box-shadow: 0 0 20px #e1b12c;
+.textocar {
+  box-shadow: 0 0 20px #e1b12c;
 }
 
-.parallax{
-    background: #000;
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.8)
-      ), url(../img/parallaxint.png);
- }
- 
- .parallax-int{
- 
-    padding: 100px 0 150px 0;
- }
- .cartaimg{
-    width: 230px;
-    align-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    
- }
+.parallax {
+  background: #000;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)), url(../img/parallaxint.png);
+}
+
+.parallax-int {
+
+  padding: 100px 0 150px 0;
+}
+
+.cartaimg {
+  width: 230px;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
 
 
- footer{
+footer {
 
   background-color: #d2dae2;
-  background-image: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(110, 110, 110, 0.8)
-      ), url(../img/main2.jpg);
-      background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+      rgba(110, 110, 110, 0.8)), url(../img/main2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  
- }
 
- .redes{
+}
+
+.redes {
   display: block;
   text-decoration: none;
   font-size: 1rem;
   color: #1d1d1f;
- }
+}
 
-.font{
+.font {
   font-family: 'Cormorant SC', serif;
 }
 
-body{
+body {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 1.3rem;
 }
 
 
-.registro{
+.registro {
   font-family: 'Ibarra Real Nova', serif;
   font-size: 1.3rem;
   background-color: #d2dae2;
-  background-image: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(110, 110, 110, 0.8)
-      ), url(../img/main2.jpg);
-      background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+      rgba(110, 110, 110, 0.8)), url(../img/main2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

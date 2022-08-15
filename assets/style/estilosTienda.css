@@ -1,0 +1,106 @@
+body {
+    background-image: url("/assets/img/fondoPanrtallaTIenda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#cont {
+    margin-top: 80px;
+}
+
+#fila {
+    margin: 10px;
+}
+
+#Bienvenidos {
+    text-align: center;
+    font-size: 500px;
+    margin-top: 150px;
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px;
+    background-color: black;
+    border: 1px transparent black;
+    border-radius: 2px;
+    -webkit-box-shadow: 17px 31px 31px 16px rgba(0,0,0,1);
+-moz-box-shadow: 17px 31px 31px 16px rgba(0,0,0,1);
+box-shadow: 17px 31px 31px 16px rgba(0,0,0,1);
+}
+
+#cambiarfondo{
+    background-image: url(../img/Fondcajontienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#cajontienda {
+    /* margin-bottom: 500px; */
+    margin-top: 30px;
+    color: white;
+}
+
+#blanco{
+    height: 500px;
+}
+
+
+#cajontienda h1 {
+    text-align: center;
+}
+
+#cajontienda p {
+    text-align: center;
+}   
+
+
+#cajontienda img {
+    -webkit-box-shadow: 18px 21px 19px -6px rgba(252, 252, 252, 1);
+    -moz-box-shadow: 18px 21px 19px -6px rgba(252, 252, 252, 1);
+    box-shadow: 18px 21px 19px -6px rgba(252, 252, 252, 1);
+
+    border-radius: solid 1px white;
+
+}
+
+#cajontienda2{
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#mover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#cajontienda3{
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0%;
+    
+}
+
+#cajontienda3 li{
+    list-style: none;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+
+
+
